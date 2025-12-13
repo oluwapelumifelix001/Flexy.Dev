@@ -18,7 +18,7 @@ const projectData = [
         title: "A full-Stack Car renting Website",
         description: "A modern car rental platform that lets users browse, filter, and book vehicles seamlessly with transparent pricing and flexible dates.",
         tags: ["react.js", "Tailwind CSS", "Node.js", "Express", "Framer Motion, MongoDB"],
-        image: "./src/assets/ZoomDrive.png",
+        image: "/src/assets/ZoomDrive.png",
         live: "",
         code: "",
     },

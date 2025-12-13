@@ -26,7 +26,7 @@ const imgSrc = "./assets/my.jpeg"; // Add your image URL here
 const About = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, amount: 0.2 });
-    const imgSrc = "../src/assets/my.jpeg"; // Add your image URL here
+    const imgSrc = "/src/assets/my.jpeg"; // Add your image URL here
 
     return (
         <section
