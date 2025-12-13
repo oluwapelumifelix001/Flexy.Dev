@@ -95,24 +95,6 @@ const Footer = () => {
                             </motion.a>
                         </div>
 
-                        {/* Back to Top Button */}
-                        <HashLink
-                            to="/#"
-                            smooth
-                            className="group flex items-center gap-2 text-cyan-300 hover:text-cyan-100 transition"
-                        >
-                            <span className="text-sm font-medium">Back to Top</span>
-                            <motion.svg
-                                className="w-5 h-5"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                                animate={{ y: [0, -5, 0] }}
-                                transition={{ repeat: Infinity, duration: 1.5 }}
-                            >
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 10l7-7m0 0l7 7" />
-                            </motion.svg>
-                        </HashLink>
                     </motion.div>
                 </div>
 
