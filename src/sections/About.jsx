@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import IMG from '../assets/my.jpeg';
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -26,7 +27,7 @@ const imgSrc = "./assets/my.jpeg"; // Add your image URL here
 const About = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, amount: 0.2 });
-    const imgSrc = "/src/assets/my.jpeg"; // Add your image URL here
+    const imgSrc = IMG; // Add your image URL here
 
     return (
         <section

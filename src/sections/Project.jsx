@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import ParallaxCard from '../../components/ParallaxCard'; // Your custom card component
-
+import ZoomDriveImage from '../assets/ZoomDrive.png';
 const projectData = [
     {
         id: 1,
@@ -18,7 +18,7 @@ const projectData = [
         title: "A full-Stack Car renting Website",
         description: "A modern car rental platform that lets users browse, filter, and book vehicles seamlessly with transparent pricing and flexible dates.",
         tags: ["react.js", "Tailwind CSS", "Node.js", "Express", "Framer Motion, MongoDB"],
-        image: "/src/assets/ZoomDrive.png",
+        image: ZoomDriveImage,
         live: "",
         code: "",
     },
