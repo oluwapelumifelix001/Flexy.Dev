@@ -3,61 +3,68 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import ParallaxCard from '../../components/ParallaxCard'; // Your custom card component
 import ZoomDriveImage from '../assets/ZoomDrive.png';
+import Nova from '../assets/Nova.png';
+import weather from '../assets/weather.png';
+import Studyflow from '../assets/Studyflow.png';
+import bims2 from '../assets/bims2.png'
 const projectData = [
+
     {
         id: 1,
-        title: "Mini Study Platform for Students",
-        description: "StudyFlow is a productivity web app designed to help students plan, stay organized, and stay connected while studying.Free Access to ai tools to enhance learning experience.",
-        tags: ["Html", "Css", "Bootstrap", "JavaScript", "Firebase"],
-        image: "https://media.licdn.com/dms/image/v2/D4D22AQEmW8H5_m8wXw/feedshare-shrink_800/B4DZonC335GsAg-/0/1761591668425?e=1767225600&v=beta&t=N--oeJGUyPSHLBNRaOBRT479le_56IIa2ziaVWYW6xw", // Admin-style e-commerce dashboard
-        live: "https://study-flow-omega.vercel.app",
-        code: "https://github.com/oluwapelumifelix001/StudyFlow.git",
-    },
-    {
-        id: 2,
         title: "A full-Stack Car renting Website",
         description: "A modern car rental platform that lets users browse, filter, and book vehicles seamlessly with transparent pricing and flexible dates.",
         tags: ["react.js", "Tailwind CSS", "Node.js", "Express", "Framer Motion, MongoDB"],
         image: ZoomDriveImage,
-        live: "",
+        live: "https://zoomdrive-frontend-awhy.vercel.app/",
         code: "",
+    },
+
+        {
+        id: 2,
+        title: "Mini Study Platform for Students",
+        description: "StudyFlow is a productivity web app designed to help students plan, stay organized, and stay connected while studying.Free Access to ai tools to enhance learning experience.",
+        tags: ["Html", "Css", "Bootstrap", "JavaScript", "Firebase"],
+        image: Studyflow, 
+        live: "https://study-flow-omega.vercel.app",
+        code: "https://github.com/oluwapelumifelix001/StudyFlow.git",
+    },
+        {
+        id: 5,
+        title: "Bimscent (Perfume website)",
+        description: "Full-featured social network with posts, likes, comments, profiles, and real-time notifications.",
+        tags: ["MERN Stack", "Socket.io", "Cloudinary", "Authentication"],
+        image: bims2,
+        live: "https://bimscent.vercel.app/",
+        code: "#",
     },
     {
         id: 3,
-        title: "Cyberpunk Developer Portfolio",
-        description: "This very portfolio — built with React, Framer Motion, and Tailwind for immersive animations and parallax effects.",
-        tags: ["React", "Framer Motion", "Tailwind CSS", "Responsive Design"],
-        image: "https://screenshots.webflow.com/sites/652a81c5d2f516632fee0f84/20231014120021_7b85610c939040d001baccc9b6b729a0.png",
-        live: "",
+        title: "Flexy Dual View ",
+        description: "dual view website,weather application and add to cart built with HTML, CSS, Bootstrap and JavaScript.",
+        tags: ["Html,Css,Bootstrap,Javascroipt,Api"],
+        image: weather,
+        live: "https://oluwapelumifelix001.github.io/Flexy-Dual-View/",
         code: "",
     },
-    // {
-    //     id: 4,
-    //     title: "Task Management Dashboard",
-    //     description: "Kanban-style productivity app with drag-and-drop, team collaboration, and real-time updates using MERN stack.",
-    //     tags: ["React", "Node.js", "MongoDB", "Firebase", "Drag & Drop"],
-    //     image: "https://cdn.dribbble.com/userupload/43526377/file/original-aaf19be68fec764c9830e4a32937d18c.png?format=webp&resize=400x300&vertical=center",
-    //     live: "#",
-    //     code: "#",
-    // },
-    // {
-    //     id: 5,
-    //     title: "Social Media Platform (MERN)",
-    //     description: "Full-featured social network with posts, likes, comments, profiles, and real-time notifications.",
-    //     tags: ["MERN Stack", "Socket.io", "Cloudinary", "Authentication"],
-    //     image: "https://user-images.githubusercontent.com/88021838/227129649-f1b47e2c-e71f-440c-ad11-ca456357fb15.png",
-    //     live: "#",
-    //     code: "#",
-    // },
-    // {
-    //     id: 6,
-    //     title: "Analytics Admin Dashboard",
-    //     description: "Powerful data visualization dashboard with charts, user management, and dark/light mode toggle using React and Recharts.",
-    //     tags: ["React", "Recharts", "Node.js", "Express", "MongoDB"],
-    //     image: "https://i.ytimg.com/vi/wYpCWwD1oz0/maxresdefault.jpg",
-    //     live: "#",
-    //     code: "#",
-    // },
+    {
+        id: 4,
+        title: "Nova Bank",
+        description: "Responsive banking  demo website with modern design, interactive features, and seamless user experience across devices.Built with HTML, CSS, and Bootstrap.",
+        tags: ["HTML", "CSS", "Bootstrap", ],
+        image: Nova,
+        live: " https://oluwapelumifelix001.github.io/Novabank/",
+        code: "#",
+    },
+
+    {
+        id: 6,
+        title: "Analytics Admin Dashboard",
+        description: "Powerful data visualization dashboard with charts, user management, and dark/light mode toggle using React and Recharts.",
+        tags: ["React", "Recharts", "Node.js", "Express", "MongoDB"],
+        image: "https://i.ytimg.com/vi/wYpCWwD1oz0/maxresdefault.jpg",
+        live: "#",
+        code: "#",
+    },
 ];
 
 const containerVariants = {

@@ -70,7 +70,7 @@ const Header = () => {
                         smooth
                         className="text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent hover:opacity-90 transition"
                     >
-                        Flexy.Dev
+                        FlexyDev
                     </HashLink>
 
                     {/* Desktop Navigation */}
