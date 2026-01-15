@@ -35,6 +35,7 @@ const child = { // <-- THIS ONE IS ALSO NEEDED
                     // 🌟 FIX: Use responsive sizing (text-lg on mobile, md:text-xl, lg:text-2xl)
                     className="mr-1.5 text-lg md:text-xl lg:text-2xl font-mono text-neon" 
                 >
+                    <div></div>
                     {word}
                 </motion.span>
             ))}
