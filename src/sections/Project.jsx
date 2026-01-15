@@ -5,7 +5,7 @@ import ParallaxCard from '../../components/ParallaxCard'; // Your custom card co
 import ZoomDriveImage from '../assets/ZoomDrive.png';
 import Nova from '../assets/Nova.png';
 import weather from '../assets/weather.png';
-import Studyflow from '../assets/Studyflow.png';
+import Studyflow from '../assets/studyflow.png';
 import bims2 from '../assets/bims2.png'
 const projectData = [
 
@@ -19,16 +19,16 @@ const projectData = [
         code: "",
     },
 
-        {
+    {
         id: 2,
         title: "Mini Study Platform for Students",
         description: "StudyFlow is a productivity web app designed to help students plan, stay organized, and stay connected while studying.Free Access to ai tools to enhance learning experience.",
         tags: ["Html", "Css", "Bootstrap", "JavaScript", "Firebase"],
-        image: Studyflow, 
+        image: Studyflow,
         live: "https://study-flow-omega.vercel.app",
         code: "https://github.com/oluwapelumifelix001/StudyFlow.git",
     },
-        {
+    {
         id: 5,
         title: "Bimscent (Perfume website)",
         description: "Full-featured social network with posts, likes, comments, profiles, and real-time notifications.",
@@ -50,7 +50,7 @@ const projectData = [
         id: 4,
         title: "Nova Bank",
         description: "Responsive banking  demo website with modern design, interactive features, and seamless user experience across devices.Built with HTML, CSS, and Bootstrap.",
-        tags: ["HTML", "CSS", "Bootstrap", ],
+        tags: ["HTML", "CSS", "Bootstrap",],
         image: Nova,
         live: " https://oluwapelumifelix001.github.io/Novabank/",
         code: "#",
